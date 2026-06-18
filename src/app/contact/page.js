@@ -11,9 +11,9 @@ export const metadata = {
   },
 };
 
-import ContactHero from '../component/ContactHero';
-import ContactForm from '../component/ContactForm';
-import ContactFeedback from '../component/ContactFeedback';
+import ContactHero from './ContactHero';
+import ContactForm from './ContactForm';
+import ContactFeedback from './ContactFeedback';
 
 const page = () => {
   return (

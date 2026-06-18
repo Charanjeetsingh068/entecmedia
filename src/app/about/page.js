@@ -12,9 +12,9 @@ export const metadata = {
   },
 };
 
-import AboutHero from '../component/AboutHero';
-import AboutStats from '../component/AboutStats';
-import AboutDesign from '../component/AboutDesign';
+import AboutHero from './AboutHero';
+import AboutStats from './AboutStats';
+import AboutDesign from './AboutDesign';
 
 const page = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import DetailProject from '../../component/datailProject'
+import DetailProject from './DetailProject'
 
 export function generateStaticParams() {
     return [
