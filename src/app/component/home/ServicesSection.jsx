@@ -33,7 +33,7 @@ export default function ServicesSection() {
       <div className="container relative z-1 max-w-full">
         <div className="text-white text-3xl min-[780px]:text-4xl min-[1200px]:text-6xl font-['Michroma'] font-normal leading-[45px] min-[780px]:leading-[55px] min-[1200px]:leading-[76px]">We don't just build digital products, we create experiences that help brands grow.</div>
 
-        <p className=" text-white text-lg font-medium font-['Inter'] leading-7 mt-7 mb-16 max-[576px]:text-base max-[576px]:mb-10">At SKYNETECH, we combine design, technology, and strategy to help startups and businesses launch powerful digital experiences.</p>
+        <p className=" text-white text-lg font-medium font-['Inter'] leading-7 mt-7 mb-16 max-[576px]:text-base max-[576px]:mb-10">At ENTECMEDIA, we combine design, technology, and strategy to help startups and businesses launch powerful digital experiences.</p>
 
         <div className="grid grid-cols-1 max-[1100px]:grid-cols-2 max-[768px]:grid-cols-1 gap-6">
           {services.map((item, index) => (

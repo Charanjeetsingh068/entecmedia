@@ -29,7 +29,7 @@ const Navbar = () => {
                     <div className="link_section rounded-[123px]">
                         <div className="flex min-[992px]:justify-start justify-between items-center gap-6">
                             <Link href="/" className="logo">
-                                <Image src="/main_logo.svg" alt="Skynetech" width={200} height={80} className="relative max-[576px]:w-[140px]" />
+                                <Image src="/main_logo.svg" alt="Entecmedia" width={200} height={80} className="relative max-[576px]:w-[140px]" />
                             </Link>
 
                             <ul className="flex-1 max-[992px]:hidden flex justify-center items-center gap-12 m-0 p-0">
@@ -51,11 +51,7 @@ const Navbar = () => {
                                     </Link>
                                 </li>
 
-                                <li>
-                                    <Link href="/razorpay" className={`text-white text-decoration-none ${pathname === "/razorpay" ? "active" : ""}`}>
-                                        Pay Online
-                                    </Link>
-                                </li>
+
 
                                 {/* <li>
                                     <Link href="/services" className={`text-white text-decoration-none ${pathname === "/services" ? "active" : ""}`}>
@@ -106,9 +102,7 @@ const Navbar = () => {
                         <Link href="/portfolio" onClick={() => setOpen(false)}>Portfolio</Link>
                     </li>
 
-                    <li>
-                        <Link href="/razorpay" onClick={() => setOpen(false)}>Pay Online</Link>
-                    </li>
+
 
                    {/*  <li>
                         <Link href="/services" onClick={() => setOpen(false)}>Services</Link>

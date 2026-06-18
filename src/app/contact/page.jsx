@@ -3,11 +3,11 @@ import Image from 'next/image'
 export const metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with SKYNETECH. Start your digital project today — web design, branding, development, and creative media services.",
+    "Get in touch with ENTECMEDIA. Start your digital project today — web design, branding, development, and creative media services.",
   openGraph: {
-    title: "Contact Us | SKYNETECH",
+    title: "Contact Us | ENTECMEDIA",
     description:
-      "Let's create something amazing together. Contact SKYNETECH for web design, development, and digital branding services.",
+      "Let's create something amazing together. Contact ENTECMEDIA for web design, development, and digital branding services.",
   },
 };
 

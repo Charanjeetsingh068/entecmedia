@@ -5,7 +5,7 @@ export default function AboutHero() {
     <section className="header_banner relative">
       <Image 
         src="/aboutHero.png" 
-        alt="About SKYNETECH digital agency" 
+        alt="About ENTECMEDIA digital agency" 
         width={1920} 
         height={1080} 
         priority 
@@ -20,7 +20,7 @@ export default function AboutHero() {
 
           <div className='flex items-center relative z-1 justify-between min-[1600px]:mt-[60px] min-[992px]:mt-[30px] mt-5 gap-14 max-[992px]:flex-col max-[992px]:items-start max-[992px]:gap-5'>
             <p className="w-full max-w-[1250px] justify-start text-white min-[992px]:font-semibold font-medium leading-5">
-              A modern digital agency built for the next generation of businesses. SKYNETECH blends creative design, advanced development, and strategic thinking to create digital experiences that engage users, strengthen brands, and drive real business growth. We build high-performance websites, applications, and digital products that help startups and businesses launch, scale, and succeed in the digital world.
+              A modern digital agency built for the next generation of businesses. ENTECMEDIA blends creative design, advanced development, and strategic thinking to create digital experiences that engage users, strengthen brands, and drive real business growth. We build high-performance websites, applications, and digital products that help startups and businesses launch, scale, and succeed in the digital world.
             </p>
 
             <Image src="/startProject.svg" alt="project" width={100} height={100} className='w-auto h-auto cursor-pointer' />

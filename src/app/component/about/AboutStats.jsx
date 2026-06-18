@@ -43,7 +43,7 @@ export default function AboutStats() {
           </div>
 
           <p className="self-stretch justify-start max-[576px]:text-base text-white text-lg font-medium leading-7 mt-[25px]">
-            At SKYNETECH, we believe a great digital product is more than just a website it's an experience. Our team blends modern design, powerful development, and smart strategy to build digital solutions that help brands connect with people and grow online. We focus on creating high-performance websites, apps, and digital platforms that are visually strong, technically reliable, and built to scale with your business. As a growing digital startup, we move fast, think creatively, and collaborate closely with our clients to turn ideas into impactful digital experiences.
+            At ENTECMEDIA, we believe a great digital product is more than just a website it's an experience. Our team blends modern design, powerful development, and smart strategy to build digital solutions that help brands connect with people and grow online. We focus on creating high-performance websites, apps, and digital platforms that are visually strong, technically reliable, and built to scale with your business. As a growing digital startup, we move fast, think creatively, and collaborate closely with our clients to turn ideas into impactful digital experiences.
           </p>
         </div>
 

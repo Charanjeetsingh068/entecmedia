@@ -55,7 +55,7 @@ export default function AboutSection() {
         </div>
 
         <div className=" text-white mt-4 max-[576px]:mt-1 text-4xl min-[780px]:text-6xl min-[1200px]:text-7xl font-normal font-['Michroma'] leading-[88px] max-[576px]:leading-[65px]">About Us</div>
-        <p className="text-white mt-7 max-[576px]:mt-2 text-lg max-[576px]:text-base relative z-1">SKYNETECH is a growing digital agency built for the new generation of brands. We combine creativity, technology, and strategy to design digital experiences that help businesses launch, scale, and stand out. As a startup team, we move fast, adapt quickly, and focus on building smart solutions that create real impact. From websites and applications to branding and digital content, our goal is simple   help businesses grow in the digital world.</p>
+        <p className="text-white mt-7 max-[576px]:mt-2 text-lg max-[576px]:text-base relative z-1">ENTECMEDIA is a growing digital agency built for the new generation of brands. We combine creativity, technology, and strategy to design digital experiences that help businesses launch, scale, and stand out. As a startup team, we move fast, adapt quickly, and focus on building smart solutions that create real impact. From websites and applications to branding and digital content, our goal is simple   help businesses grow in the digital world.</p>
 
         <div className="grid min-[1300px]:grid-cols-[2.2fr_0.8fr] min-[1300px]:items-center gap-4 mt-10 z-1 relative">
           <div>

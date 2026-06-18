@@ -33,7 +33,7 @@ const Footer = () => {
                         <div className="grid grid-cols-1 min-[1100px]:grid-cols-[2.4fr_0.6fr] justify-between items-end mt-3 footer_tabs gap-6 min-[1100px]:gap-0">
                             <div className="">
                                 <Link href="/" className="logo">
-                                    <Image src="/main_logo.svg" alt="Skynetech" width={240} height={80} className="relative" />
+                                    <Image src="/main_logo.svg" alt="Entecmedia" width={240} height={80} className="relative" />
                                 </Link>
 
                                 <ul className="flex-1 flex justify-start flex-wrap gap-y-4 items-center gap-12 m-0 p-0 mt-4">
@@ -55,11 +55,7 @@ const Footer = () => {
                                         </Link>
                                     </li>
 
-                                    <li>
-                                        <Link href="/razorpay" className={`text-white text-decoration-none ${pathname === "/razorpay" ? "active" : ""}`}>
-                                            Pay Online
-                                        </Link>
-                                    </li>
+
 
                                     {/* <li>
                                         <Link href="/services" className={`text-white text-decoration-none ${pathname === "/services" ? "active" : ""}`}>
@@ -88,16 +84,16 @@ const Footer = () => {
                             </div>
                             <div className="">
                                 <div className="flex min-[1100px]:justify-end justify-center items-center gap-6">
-                                    <Link href="https://twitter.com/skynetech" target="_blank" aria-label="Follow us on Twitter">
+                                    <Link href="https://twitter.com/entecmedia" target="_blank" aria-label="Follow us on Twitter">
                                         <FaTwitter fill="#fff" size={24} />
                                     </Link>
-                                    <Link href="https://facebook.com/skynetech" target="_blank" aria-label="Follow us on Facebook">
+                                    <Link href="https://facebook.com/entecmedia" target="_blank" aria-label="Follow us on Facebook">
                                         <FaFacebook fill="#fff" size={24} />
                                     </Link>
-                                    <Link href="https://linkedin.com/company/skynetech" target="_blank" aria-label="Follow us on LinkedIn">
+                                    <Link href="https://linkedin.com/company/entecmedia" target="_blank" aria-label="Follow us on LinkedIn">
                                         <FaLinkedin fill="#fff" size={24} />
                                     </Link>
-                                    <Link href="https://instagram.com/skynetech" target="_blank" aria-label="Follow us on Instagram">
+                                    <Link href="https://instagram.com/entecmedia" target="_blank" aria-label="Follow us on Instagram">
                                         <FaInstagram fill="#fff" size={24} />
                                     </Link>
                                 </div>
@@ -106,7 +102,7 @@ const Footer = () => {
 
                         <div className="copyright_text mt-3">
                             <p className="min-[1100px]:text-end text-center text-white pt-2 mt-3">
-                                ©2026 Skynetech. All Rights Reserved
+                                ©2026 Entecmedia. All Rights Reserved
                             </p>
                         </div>
                     </div>

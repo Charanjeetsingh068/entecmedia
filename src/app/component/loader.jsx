@@ -94,7 +94,7 @@ export default function Loader({ onFinish }) {
       <div className="relative flex flex-col items-center select-none z-10">
         {/* Subtle Label */}
         <span className="text-[10px] font-bold tracking-[0.4em] text-neutral-600 mb-6 uppercase">
-          SKYNETECH
+          ENTECMEDIA
         </span>
 
         {/* Large percentage text with bottom-to-top color fill */}

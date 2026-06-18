@@ -5,7 +5,7 @@ export default function PortfolioHero() {
     <section className="header_banner relative">
       <Image 
         src="/portfolioHero.png" 
-        alt="SKYNETECH portfolio showcase" 
+        alt="ENTECMEDIA portfolio showcase" 
         width={1920} 
         height={650} 
         priority 

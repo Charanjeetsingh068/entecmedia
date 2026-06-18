@@ -37,7 +37,7 @@ export default function AboutDesign() {
           <div>
             <div className="justify-start min-[1620px]:w-[709px] min-[970px]:text-7xl max-[969px]:text-6xl max-[768px]:text-5xl max-[576px]:text-4xl font-normal font-['Michroma'] leading-[88px] max-[576px]:leading-[55px] text-white">Design Thinking</div>
             <p className="w-full min-[1560px]:pr-10 justify-start text-white font-bold leading-5 mt-[25px] max-[576px]:mt-2">
-              At SKYNETECH, our work is driven by design, powered by technology, and focused on solving real problems. We combine creativity, strategy, and development to build digital experiences that are modern, scalable, and impactful.
+              At ENTECMEDIA, our work is driven by design, powered by technology, and focused on solving real problems. We combine creativity, strategy, and development to build digital experiences that are modern, scalable, and impactful.
             </p>
 
             <Image src="/discussion.png" alt='Discussion' width={821} height={527} className='mt-[25px] z-1 relative max-[1400px]:w-full' />

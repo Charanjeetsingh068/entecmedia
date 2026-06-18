@@ -1,19 +1,19 @@
 export default function DetailFeedback() {
   const feedback = [
     {
-      review: 'Working with SKYNETECH completely transformed our online presence. Their team delivered a modern website and a strong brand identity that truly represents our business.',
+      review: 'Working with ENTECMEDIA completely transformed our online presence. Their team delivered a modern website and a strong brand identity that truly represents our business.',
       img: '/client-1.png',
       name: 'Amit Sharma',
       profession: 'Startup Founder'
     },
     {
-      review: 'The SKYNETECH team understands design and technology extremely well. They built our platform with great performance and a clean user experience.',
+      review: 'The ENTECMEDIA team understands design and technology extremely well. They built our platform with great performance and a clean user experience.',
       img: '/client-2.png',
       name: 'Sarah Johnson',
       profession: 'Product Manager'
     },
     {
-      review: 'From branding to development, the process was smooth and professional. SKYNETECH helped us launch a digital product that our users love.',
+      review: 'From branding to development, the process was smooth and professional. ENTECMEDIA helped us launch a digital product that our users love.',
       img: '/client-3.png',
       name: 'Daniel Carter',
       profession: 'Business Owner'
@@ -41,7 +41,7 @@ export default function DetailFeedback() {
         What Our Clients Say
       </div>
       <p className="text-white mt-7 text-lg max-[576px]:text-[16px]">
-        Real feedback from businesses and startups that have partnered with SKYNETECH to build modern digital experiences and powerful online platforms.
+        Real feedback from businesses and startups that have partnered with ENTECMEDIA to build modern digital experiences and powerful online platforms.
       </p>
 
       <div className="grid grid-cols-1 min-[576px]:grid-cols-2 min-[1400px]:grid-cols-4 mt-16 gap-6">

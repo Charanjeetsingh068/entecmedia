@@ -18,11 +18,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "SKYNETECH — Digital Agency for Modern Brands",
-    template: "%s | SKYNETECH",
+    default: "ENTECMEDIA — Digital Agency for Modern Brands",
+    template: "%s | ENTECMEDIA",
   },
   description:
-    "SKYNETECH is a modern digital agency specializing in brand strategy, web design, web development, and creative media for startups and growing businesses.",
+    "ENTECMEDIA is a modern digital agency specializing in brand strategy, web design, web development, and creative media for startups and growing businesses.",
   keywords: [
     "digital agency",
     "web design",
@@ -31,17 +31,17 @@ export const metadata = {
     "UI UX design",
     "Next.js agency",
     "startup agency",
-    "SKYNETECH",
+    "ENTECMEDIA",
   ],
-  authors: [{ name: "SKYNETECH" }],
-  creator: "SKYNETECH",
+  authors: [{ name: "ENTECMEDIA" }],
+  creator: "ENTECMEDIA",
   metadataBase: new URL("https://skytech-dga.pages.dev"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://skytech-dga.pages.dev",
-    siteName: "SKYNETECH",
-    title: "SKYNETECH — Digital Agency for Modern Brands",
+    siteName: "ENTECMEDIA",
+    title: "ENTECMEDIA — Digital Agency for Modern Brands",
     description:
       "We combine creativity, technology, and strategy to design digital experiences that help businesses launch, scale, and stand out.",
     images: [
@@ -49,13 +49,13 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "SKYNETECH Digital Agency",
+        alt: "ENTECMEDIA Digital Agency",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SKYNETECH — Digital Agency for Modern Brands",
+    title: "ENTECMEDIA — Digital Agency for Modern Brands",
     description:
       "We combine creativity, technology, and strategy to design digital experiences that help businesses launch, scale, and stand out.",
     images: ["/og-image.png"],

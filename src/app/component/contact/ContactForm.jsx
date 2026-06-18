@@ -35,7 +35,7 @@ export default function ContactForm() {
                       <Image src={'/email.svg'} width={40} height={40} alt='Email' />
                       <div>
                         <p className='text-[14px] text-white font-medium'>Email Us</p>
-                        <p className='text-[16px] text-white font-medium my-1'>info@skynetech.ca</p>
+                        <p className='text-[16px] text-white font-medium my-1'>info@entecmedia.ca</p>
                       </div>
                     </li>
 
