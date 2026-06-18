@@ -32,12 +32,20 @@ const Footer = () => {
 
                         <div className="grid grid-cols-1 min-[1100px]:grid-cols-[2.4fr_0.6fr] justify-between items-end mt-3 footer_tabs gap-6 min-[1100px]:gap-0">
                             <div className="">
-                                <Image src="/main_logo.svg" alt="Skynetech" width={240} height={80} className="relative" />
+                                <Link href="/" className="logo">
+                                    <Image src="/main_logo.svg" alt="Skynetech" width={240} height={80} className="relative" />
+                                </Link>
 
-                                <ul className="flex-1 flex justify-start flex-wrap gap-y-4 items-center gap-12 m-0 p-0">
+                                <ul className="flex-1 flex justify-start flex-wrap gap-y-4 items-center gap-12 m-0 p-0 mt-4">
                                     <li>
                                         <Link href="/" className={`text-white text-decoration-none ${pathname === "/" ? "active" : ""}`}>
                                             Home
+                                        </Link>
+                                    </li>
+
+                                    <li>
+                                        <Link href="/about" className={`text-white text-decoration-none ${pathname === "/about" ? "active" : ""}`}>
+                                            About Us
                                         </Link>
                                     </li>
 
@@ -54,7 +62,7 @@ const Footer = () => {
                                     </li> */}
 
                                     <li>
-                                        <Link href="/contact" className={`text-white text-decoration-none ${pathname === "" ? "active" : ""}`}>
+                                        <Link href="/contact" className={`text-white text-decoration-none ${pathname === "/contact" ? "active" : ""}`}>
                                             Get in Touch
                                         </Link>
                                     </li>
