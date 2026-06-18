@@ -1,8 +1,8 @@
 "use client";
 
-import PortfolioHero from './PortfolioHero';
-import PortfolioProjects from './PortfolioProjects';
-import PortfolioFeedback from './PortfolioFeedback';
+import PortfolioHero from '../component/portfolio/PortfolioHero';
+import PortfolioProjects from '../component/portfolio/PortfolioProjects';
+import PortfolioFeedback from '../component/portfolio/PortfolioFeedback';
 
 const page = () => {
   return (

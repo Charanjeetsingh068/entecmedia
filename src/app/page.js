@@ -1,11 +1,11 @@
 "use client";
 
-import HeroSection from "./HeroSection";
-import AboutSection from "./AboutSection";
-import ServicesSection from "./ServicesSection";
-import PartnersSection from "./PartnersSection";
-import ProjectsSection from "./ProjectsSection";
-import FeedbackSection from "./FeedbackSection";
+import HeroSection from "./component/home/HeroSection";
+import AboutSection from "./component/home/AboutSection";
+import ServicesSection from "./component/home/ServicesSection";
+import PartnersSection from "./component/home/PartnersSection";
+import ProjectsSection from "./component/home/ProjectsSection";
+import FeedbackSection from "./component/home/FeedbackSection";
 
 export default function Home() {
   return (
