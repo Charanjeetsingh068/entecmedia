@@ -4,7 +4,7 @@ export default function DetailOutcome({ project }) {
   if (!project) return null;
 
   return (
-    <div 
+    <section 
       className='card relative rounded-[53px] p-[34px] mb-[80px] max-[768px]:mb-[50px] max-[576px]:p-6' 
       style={{
         boxShadow: '0 0 13px #00000075, inset 0 1px #ffffff99, inset 0 -1px #ffffff38, inset 2px 0 #8b8b8b45, inset -2px 0 #8b8b8b45', 
@@ -37,6 +37,6 @@ export default function DetailOutcome({ project }) {
         <p className='text-white text-base font-medium text-end'>{project.award.year}</p>
       </div>
       <div className="feedback-circle-6 blur-circle"></div>
-    </div>
+    </section>
   );
 }
