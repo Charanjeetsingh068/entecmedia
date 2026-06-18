@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { ReactLenis, useLenis } from "lenis/react";
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./header/Navbar";
+import Footer from "./footer/Footer";
 import Loader from "./loader";
 import { FaLongArrowAltUp } from "react-icons/fa";
 
