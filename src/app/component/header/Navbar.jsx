@@ -51,6 +51,12 @@ const Navbar = () => {
                                     </Link>
                                 </li>
 
+                                <li>
+                                    <Link href="/razorpay" className={`text-white text-decoration-none ${pathname === "/razorpay" ? "active" : ""}`}>
+                                        Pay Online
+                                    </Link>
+                                </li>
+
                                 {/* <li>
                                     <Link href="/services" className={`text-white text-decoration-none ${pathname === "/services" ? "active" : ""}`}>
                                         Services
@@ -98,6 +104,10 @@ const Navbar = () => {
 
                     <li>
                         <Link href="/portfolio" onClick={() => setOpen(false)}>Portfolio</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/razorpay" onClick={() => setOpen(false)}>Pay Online</Link>
                     </li>
 
                    {/*  <li>

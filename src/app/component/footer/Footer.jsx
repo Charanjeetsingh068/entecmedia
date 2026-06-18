@@ -55,6 +55,12 @@ const Footer = () => {
                                         </Link>
                                     </li>
 
+                                    <li>
+                                        <Link href="/razorpay" className={`text-white text-decoration-none ${pathname === "/razorpay" ? "active" : ""}`}>
+                                            Pay Online
+                                        </Link>
+                                    </li>
+
                                     {/* <li>
                                         <Link href="/services" className={`text-white text-decoration-none ${pathname === "/services" ? "active" : ""}`}>
                                             Services
